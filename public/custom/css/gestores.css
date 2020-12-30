@@ -1,0 +1,68 @@
+.table-grid {
+    font-size: 0.7em;
+}
+
+table.display thead th {
+    background-color: #000;
+    border-left: solid 0.1em #a7a6a4 !important;
+    border-top: solid 0.1em #a7a6a4 !important;
+    border-bottom: none !important;
+    font-size: 10px !important;
+    color: #FFF;
+}
+
+table.display thead th:last-child {
+    border-right: solid 0.1em #a7a6a4 !important;
+    border-radius: 0px 5px 0px 0px;
+}
+
+table.display thead th:first-child {
+    border-radius: 5px 0px 0px 0px;
+}
+
+table.display tbody td {
+    border-right: solid 0.1em #dcddde !important;
+}
+
+table.display tbody td:first-child {
+    border-left: solid 0.1em #dcddde !important;
+}
+
+table.display tbody tr:last-child td {
+    border-bottom: solid 0.1em #dcddde !important;
+}
+
+table.display tbody tr:last-child td:first-child {
+    border-radius: 0px 0px 0px 5px;
+}
+
+table.display tbody tr:last-child td:last-child {
+    border-radius: 0px 0px 5px 0px;
+}
+
+table.dataTable.no-footer {
+    border: none !important;
+}
+
+.dataTables_filter label {
+    font-size: 0.8em;
+}
+
+.tag_ {
+    display: inline;
+    padding: .2em .6em .3em;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.tag-success {
+    background-color: #5cb85c !important;
+}
+
+.tag-danger {
+    background-color: #cb2827 !important;
+}
